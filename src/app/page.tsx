@@ -1,6 +1,5 @@
 import { ArrowRight, MessageSquare, BookOpen, CheckCircle2, Brain } from "lucide-react"
 
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
