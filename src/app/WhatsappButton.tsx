@@ -32,6 +32,7 @@ export default function WhatsappButton() {
       <AlertDialogTitle>In progress</AlertDialogTitle>
       <AlertDialogDescription>
       We are still waiting for whatsapp to approve the phone numbers name.
+      Meta is painfully slow, fml
       </AlertDialogDescription>
     </AlertDialogHeader>
   </AlertDialogContent>
