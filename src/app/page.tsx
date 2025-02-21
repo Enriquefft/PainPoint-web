@@ -130,14 +130,7 @@ export default function Component() {
 					</div>
 				</section>
 			</main>
-			<footer className="w-full py-6 bg-gray-100">
-				<div className="container px-4 md:px-6">
-					<p className="text-center text-sm text-gray-500">
-						© 2024 PainPoint. All rights reserved. Based on The Mom Test by Rob
-						Fitzpatrick.
-					</p>
-				</div>
-			</footer>
+
 		</div>
 	);
 }
