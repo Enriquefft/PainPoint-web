@@ -19,7 +19,7 @@ export default function WhatsappButton() {
 				<Image
 					src="/whatsapp_button/ChatOnWhatsAppButton/WhatsAppButtonGreenLarge.svg"
 					alt="WhatsApp icon"
-					className="cursor-pointer translate-5"
+					className="cursor-pointer"
 					height="40"
 					width="200"
 				/>
