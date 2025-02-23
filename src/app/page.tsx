@@ -163,7 +163,7 @@ export default function LandingPage() {
 								<div className="p-3 pr-7 rounded-full">
 									<ArrowRight className="ml-2 h-5 w-5 animate-bounce-right" />
 								</div>
-							<WhatsappButton />
+								<WhatsappButton />
 							</div>
 						</div>
 
