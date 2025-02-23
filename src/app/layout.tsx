@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 export { metadata } from "@/metadata";
 
-import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/components/theme-provider";
 
 import { inter as fontSans } from "@/styles/fonts";
 
@@ -25,14 +25,14 @@ export default function RootLayout({
 					fontSans.className,
 				)}
 			>
-                   <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
+				<ThemeProvider
+					attribute="class"
+					defaultTheme="system"
+					enableSystem
+					disableTransitionOnChange
+				>
+					{children}
+				</ThemeProvider>
 			</body>
 		</html>
 	);

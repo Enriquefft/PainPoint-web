@@ -1,3 +1,5 @@
+import MeetsAgenda from "@/components/MeetsAgenda";
+import { ModeToggle } from "@/components/ModeToogle";
 import { Card, CardContent } from "@/components/ui/card";
 import {
 	ArrowRight,
@@ -8,8 +10,6 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import WhatsappButton from "./WhatsappButton";
-import MeetsAgenda from "@/components/MeetsAgenda";
-import { ModeToggle } from "@/components/ModeToogle";
 
 function Header() {
 	return (
@@ -19,9 +19,7 @@ function Header() {
 					<span className="text-4xl font-bold">PainPoint AI</span>
 				</div>
 
-                <ModeToggle />
-
-
+				<ModeToggle />
 			</div>
 		</header>
 	);
@@ -47,15 +45,11 @@ export default function LandingPage() {
 								without the guesswork—directly on WhatsApp.
 							</p>
 
-                            <div className="flex space-x-4 items-center" >
-							<WhatsappButton />
-                                <p className="inline-block align-middle">
-                            or
-                                </p>
-                            <MeetsAgenda className="h-13"/>
-                            </div>
-
-
+							<div className="flex space-x-4 items-center">
+								<WhatsappButton />
+								<p className="inline-block align-middle">or</p>
+								<MeetsAgenda className="h-13" />
+							</div>
 						</div>
 
 						{/* Right: Illustration / Image */}
@@ -73,9 +67,11 @@ export default function LandingPage() {
 			</section>
 
 			{/* 2. Features Section */}
-			<section className="w-full py-12 md:py-24 lg:py-32 text-primary-foreground
+			<section
+				className="w-full py-12 md:py-24 lg:py-32 text-primary-foreground
                 bg-gradient-to-b from-primary to-background
-                ">
+                "
+			>
 				<div className="container px-4 md:px-6 text-foreground">
 					<div className="text-center mb-8">
 						<h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -92,7 +88,7 @@ export default function LandingPage() {
 							<CardContent className="p-6">
 								<MessageSquare className="h-12 w-12 mb-4 text-primary" />
 								<h3 className="text-xl font-bold mb-2">WhatsApp Integration</h3>
-								<p >
+								<p>
 									Practice interviews right in WhatsApp. No new apps to download
 									or complex setups required.
 								</p>
