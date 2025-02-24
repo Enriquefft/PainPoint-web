@@ -5,7 +5,8 @@ export const metadata: Metadata = {
 		template: "%s | PainPoint",
 		default: "PainPoint",
 	},
-	description: "App for first-time founders to practice and improve their user interviewing skills.",
+	description:
+		"App for first-time founders to practice and improve their user interviewing skills.",
 	keywords: ["Startup", "Founder", "AI", "the mom test", "customer discovery"],
 	authors: [
 		{
