@@ -183,27 +183,25 @@ export default function LandingPage() {
 								<li className="flex items-start gap-4">
 									<CheckCircle2 className="h-6 w-6 text-primary mt-1" />
 									<span>
-										<strong>1.</strong> Register with just your name and target
-										user persona
+										<strong>1.</strong> Register with just your name
 									</span>
 								</li>
 								<li className="flex items-start gap-4">
 									<CheckCircle2 className="h-6 w-6 text-primary mt-1" />
 									<span>
-										<strong>2.</strong> Start a simulated interview via WhatsApp
+										<strong>2.</strong> Start a conversation by writing your target user persona
 									</span>
 								</li>
 								<li className="flex items-start gap-4">
 									<CheckCircle2 className="h-6 w-6 text-primary mt-1" />
 									<span>
-										<strong>3.</strong> Practice asking effective questions
+										<strong>3.</strong> Chat! and discover the insights
 									</span>
 								</li>
 								<li className="flex items-start gap-4">
 									<CheckCircle2 className="h-6 w-6 text-primary mt-1" />
 									<span>
-										<strong>4.</strong> Receive detailed feedback on your
-										technique
+										<strong>4.</strong> Receive detailed feedback on your questions and findings
 									</span>
 								</li>
 							</ul>
