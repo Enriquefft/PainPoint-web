@@ -66,10 +66,13 @@ export default function LandingPage() {
 				</div>
 			</section>
 			{/* Incubators & Accelerators section */}
-			<section className="w-full pb-4 md:pb-8 lg:pb-12
+			<section
+				className="w-full pb-4 md:pb-8 lg:pb-12
 
                 bg-gradient-to-b from-background to-70% to-primary/70
-                " id="accelerators">
+                "
+				id="accelerators"
+			>
 				<div className="container px-4 md:px-6">
 					<h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-center mb-6 sr-only">
 						We use Teachings recommended in this Incubators &amp; Accelerators
