@@ -172,7 +172,7 @@
 		--color-secondary-foreground: 0 0% 100%;
 
 		/* Muted & Accent */
-		--color-muted: 250 15% 25%;
+		--color-muted: 250 15% 75%;
 		--color-muted-foreground: 250 15% 80%;
 		--color-accent: 48 90% 55%;
 		--color-accent-foreground: 210 15% 95%;

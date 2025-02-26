@@ -66,7 +66,10 @@ export default function LandingPage() {
 				</div>
 			</section>
 			{/* Incubators & Accelerators section */}
-			<section className="w-full pb-4 md:pb-8 lg:pb-12" id="accelerators">
+			<section className="w-full pb-4 md:pb-8 lg:pb-12
+
+                bg-gradient-to-b from-background to-70% to-primary/70
+                " id="accelerators">
 				<div className="container px-4 md:px-6">
 					<h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-center mb-6 sr-only">
 						We use Teachings recommended in this Incubators &amp; Accelerators
@@ -75,7 +78,7 @@ export default function LandingPage() {
 						We make use of teachings from leading startup incubators and
 						accelerators:
 					</p>
-					<div className="flex flex-wrap items-center justify-center gap-6">
+					<div className="flex flex-wrap items-center justify-center gap-6 dark: ">
 						<Image
 							src="/logos/eu-startups.png"
 							alt="EU Startups"
@@ -118,7 +121,7 @@ export default function LandingPage() {
 			{/* 2. Features Section */}
 			<section
 				className="w-full py-12 md:py-24 lg:py-32 text-primary-foreground
-                bg-gradient-to-b from-primary to-background
+                bg-gradient-to-b from-primary/70 from-40% to-background
                 "
 			>
 				<div className="container px-4 md:px-6 text-foreground">
