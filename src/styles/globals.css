@@ -125,7 +125,7 @@
 		--color-secondary-foreground: 0 0% 100%; /* White text on purple */
 
 		/* Muted & Accent (Optional extra color) */
-		--color-muted: 250 15% 80%;
+		--color-muted: 250 15% 50%;
 		--color-muted-foreground: 250 15% 20%;
 		--color-accent: 48 90% 60%; /* Vibrant yellow/gold */
 		--color-accent-foreground: 210 15% 15%;

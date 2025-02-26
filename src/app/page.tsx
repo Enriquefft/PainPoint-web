@@ -65,7 +65,58 @@ export default function LandingPage() {
 					</div>
 				</div>
 			</section>
-
+            {/* Incubators & Accelerators section */}
+  <section
+        className="w-full pb-4 md:pb-8 lg:pb-12"
+        id="accelerators"
+      >
+        <div className="container px-4 md:px-6">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-center mb-6 sr-only">
+            We use Teachings recommended in this Incubators &amp; Accelerators
+          </h2>
+          <p className="text-center max-w-2xl mx-auto mb-10 text-muted">
+            We make use of teachings from leading startup incubators and accelerators:
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-6">
+            <Image
+              src="/logos/eu-startups.png"
+              alt="EU Startups"
+              width={100}
+              height={40}
+            />
+            <Image
+              src="/logos/microsoft-ventures.png"
+              alt="Microsoft Ventures"
+              width={100}
+              height={40}
+            />
+            <Image
+              src="/logos/harvard.svg"
+              alt="Harvard"
+              width={70}
+              height={40}
+            />
+            <Image
+              src="/logos/seedcamp.png"
+              alt="Seedcamp"
+              width={100}
+              height={40}
+            />
+            <Image
+              src="/logos/y-combinator.png"
+              alt="Y Combinator"
+              width={50}
+              height={40}
+            />
+            <Image
+              src="/logos/utec-ventures.png"
+              alt="Utec Ventures"
+              width={140}
+              height={60}
+            />
+          </div>
+        </div>
+      </section>
 			{/* 2. Features Section */}
 			<section
 				className="w-full py-12 md:py-24 lg:py-32 text-primary-foreground
