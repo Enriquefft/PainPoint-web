@@ -189,7 +189,8 @@ export default function LandingPage() {
 								<li className="flex items-start gap-4">
 									<CheckCircle2 className="h-6 w-6 text-primary mt-1" />
 									<span>
-										<strong>2.</strong> Start a conversation by writing your target user persona
+										<strong>2.</strong> Start a conversation by writing your
+										target user persona
 									</span>
 								</li>
 								<li className="flex items-start gap-4">
@@ -201,7 +202,8 @@ export default function LandingPage() {
 								<li className="flex items-start gap-4">
 									<CheckCircle2 className="h-6 w-6 text-primary mt-1" />
 									<span>
-										<strong>4.</strong> Receive detailed feedback on your questions and findings
+										<strong>4.</strong> Receive detailed feedback on your
+										questions and findings
 									</span>
 								</li>
 							</ul>
