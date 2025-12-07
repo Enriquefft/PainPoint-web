@@ -9,7 +9,7 @@ import {
 	MessageSquare,
 } from "lucide-react";
 import Image from "next/image";
-import WhatsappButton from "./WhatsappButton";
+import WhatsappButton from "@/components/WhatsappButton";
 
 function Header() {
 	return (
